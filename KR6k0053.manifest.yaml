@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6k0053/v1
+canonical_location: https://kanripo.org/bkk/KR6k0053/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 舍利弗問經
+  identifiers:
+    alt_id:
+    - T24n1465
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1465.xml
+    old_id: T24n1465
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0053_000.yaml, hash: 'sha256:60f3f2bd626e7bb696266f891ed07fd8d45c8526b8e2cff060ab841aaa751edd'}
+  - {seq: 1, filename: KR6k0053_001.yaml, hash: 'sha256:6deede85044c94c28fe09953f7cccc845714652e6fda2f2096152199ba50d04f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0053_001.markers.yaml, hash: 'sha256:5e4f5d153d8281dd823bc5fafaa90798677c3ae9d8c1da2fe6e779cd8d8bbdb9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0053_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4755
+  label: 舍利弗問經
+  type: juan
+  level: 1
+hash: sha256:3b77b931de676c2d4061882e8830e1fd7ed3207ef2b46b58a8162a923e4c1be4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

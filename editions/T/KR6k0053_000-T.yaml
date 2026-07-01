@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6k0053/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 舍利弗問經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1465.xml
+    old_id: T24n1465
+hash: sha256:60f3f2bd626e7bb696266f891ed07fd8d45c8526b8e2cff060ab841aaa751edd
